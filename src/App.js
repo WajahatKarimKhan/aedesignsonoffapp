@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-import React, { useState, useEffect, useRef } from 'react';
-
 // --- MODIFIED LINES ---
 // The URL of your LIVE FastAPI backend on Render
 const BACKEND_URL = 'https://aedesign-sonoff-backend.onrender.com';
