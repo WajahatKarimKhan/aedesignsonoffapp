@@ -1,9 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 
+import React, { useState, useEffect, useRef } from 'react';
+
 // --- MODIFIED LINES ---
-// The URL of your FastAPI backend, now pointing to port 8000
-const BACKEND_URL = 'http://localhost:8000';
-const WEBSOCKET_URL = 'ws://localhost:8000/ws';
+// The URL of your LIVE FastAPI backend on Render
+const BACKEND_URL = 'https://aedesign-sonoff-backend.onrender.com';
+
+// The WebSocket URL for your LIVE backend. Use 'wss' for secure connections!
+const WEBSOCKET_URL = 'wss://aedesign-sonoff-backend.onrender.com/ws';
 // --- END MODIFICATION ---
 
 function App() {
